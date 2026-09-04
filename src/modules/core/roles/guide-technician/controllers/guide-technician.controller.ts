@@ -76,7 +76,7 @@ export class GuideTechnicianController {
 
   @ApiOperation({ summary: 'Lista de establecimientos catastrados' })
   @Get('cadastres')
-  async findCadastres(@Query() params: PaginationDto) {
+  async findCadastres(@Query() params: FindProcessesDto) {
     const serviceResponse = await this.service.findCadastres(params);
 
     return {

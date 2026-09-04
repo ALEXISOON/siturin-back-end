@@ -47,7 +47,6 @@ import { FindProcessesDto } from '@modules/core/roles/guide-technician/dto/guide
 import { LanguageEntity } from '@modules/core/entities/language.entity';
 import { AdventureModalityEntity } from '@modules/core/entities/adventure-modality.entity';
 import { ProtectedAreaEntity } from '@modules/core/entities/protected-area.entity';
-import { PaginationDto } from '@utils/pagination';
 import { endOfDay, parseISO, startOfDay } from 'date-fns';
 
 interface InternalUserRole {
@@ -914,9 +913,17 @@ export class GuideTechnicianService {
     return cadastreSave;
   }
 
-  async findCadastres(params: PaginationDto): Promise<ServiceResponseHttpInterface> {
+  async findCadastres(params: FindProcessesDto): Promise<ServiceResponseHttpInterface> {
+    const { registerNumber } = params;
+
+    const where: FindOptionsWhere<CadastreEntity> = {};
+
+    if (registerNumber) {
+      where.registerNumber = ILike(`%${registerNumber}%`);
+    }
     const response = await this.cadastreRepository.findAndCount({
       where: {
+        ...where,
         process: {
           activity: [
             { code: CatalogueActivitiesCodeEnum.guide_continent },
