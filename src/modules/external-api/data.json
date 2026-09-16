@@ -1021,6 +1021,42 @@
         ]
       },
       {
+        "ruc": "1234567890003",
+        "razonSocial": "NOMBRES PERSONA JURIDICA",
+        "actividadEconomicaPrincipal": "ACTIVIDAD PRINCIPAL - PERSONA JURIDICA",
+        "tipoContribuyente": "SCD",
+        "estadoContribuyente": "ACTIVO",
+        "fechaActualizacion": "2026-01-01 12:00:00",
+        "cedulaRepresentanteLegal": "01234567891",
+        "nombreRepresentanteLegal": "NOMBRES REPRESENTANTE LEGAL"
+
+      },
+      {
+        "ruc": "1234567890004",
+        "razonSocial": "NOMBRES PERSONA JURIDICA",
+        "actividadEconomicaPrincipal": "ACTIVIDAD PRINCIPAL - PERSONA JURIDICA",
+        "tipoContribuyente": "SCD",
+        "estadoContribuyente": "ACTIVO",
+        "fechaActualizacion": "2026-01-01 12:00:00",
+        "cedulaRepresentanteLegal": "01234567891",
+        "nombreRepresentanteLegal": "NOMBRES REPRESENTANTE LEGAL"
+
+      },
+
+      
+      {
+        "ruc": "1234567890005",
+        "razonSocial": "NOMBRES PERSONA JURIDICA",
+        "actividadEconomicaPrincipal": "ACTIVIDAD PRINCIPAL - PERSONA JURIDICA",
+        "tipoContribuyente": "SCD",
+        "estadoContribuyente": "ACTIVO",
+        "fechaActualizacion": "2026-01-01 12:00:00",
+        "cedulaRepresentanteLegal": "01234567891",
+        "nombreRepresentanteLegal": "NOMBRES REPRESENTANTE LEGAL"
+
+      },
+
+      {
         "ruc": "1234567890002",
         "razonSocial": "NOMBRES PERSONA JURIDICA",
         "actividadEconomicaPrincipal": "ACTIVIDAD PRINCIPAL - PERSONA JURIDICA",
