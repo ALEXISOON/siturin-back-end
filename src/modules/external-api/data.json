@@ -1020,6 +1020,31 @@
           }
         ]
       },
+
+      {
+        "ruc": "1234567890007",
+        "razonSocial": "NOMBRES PERSONA JURIDICA",
+        "actividadEconomicaPrincipal": "ACTIVIDAD PRINCIPAL - PERSONA JURIDICA",
+        "tipoContribuyente": "SCD",
+        "estadoContribuyente": "ACTIVO",
+        "fechaActualizacion": "2026-01-01 12:00:00",
+        "cedulaRepresentanteLegal": "01234567891",
+        "nombreRepresentanteLegal": "NOMBRES REPRESENTANTE LEGAL",
+        "establecimientos": [
+          {
+            "numero": "1",
+            "nombreComercial": "ESTABLECIMIENTO 1",
+            "estado": "ABIERTO",
+            "callePrincipal": "CALLE PRINCIPAL 1",
+            "calleNumeracion": "A1",
+            "calleInterseccion": "CALLE INTERSECCION 1",
+            "calleReferencia": "CALLE REFERENCIA 1",
+            "ubicacionGeografica": "2170001"
+          }
+
+        ]},
+
+
       {
         "ruc": "1234567890003",
         "razonSocial": "NOMBRES PERSONA JURIDICA",
@@ -1055,6 +1080,48 @@
         "nombreRepresentanteLegal": "NOMBRES REPRESENTANTE LEGAL"
 
       },
+
+      {
+        "ruc": "1234567890006",
+        "razonSocial": "NOMBRES PERSONA JURIDICA",
+        "actividadEconomicaPrincipal": "ACTIVIDAD PRINCIPAL - PERSONA JURIDICA",
+        "tipoContribuyente": "SCD",
+        "estadoContribuyente": "ACTIVO",
+        "fechaActualizacion": "2026-01-01 12:00:00",
+        "cedulaRepresentanteLegal": "01234567891",
+        "nombreRepresentanteLegal": "NOMBRES REPRESENTANTE LEGAL",
+        "establecimientos": [
+          {
+            "numero": "1",
+            "nombreComercial": "ESTABLECIMIENTO 1",
+            "estado": "ABIERTO",
+            "callePrincipal": "CALLE PRINCIPAL 1",
+            "calleNumeracion": "A1",
+            "calleInterseccion": "CALLE INTERSECCION 1",
+            "calleReferencia": "CALLE REFERENCIA 1",
+            "ubicacionGeografica": "2170001"
+          },
+          {
+            "numero": "2",
+            "nombreComercial": "",
+            "estado": "CERRADO",
+            "callePrincipal": "CALLE PRINCIPAL 2",
+            "calleNumeracion": "A2",
+            "calleInterseccion": "CALLE INTERSECCION 2",
+            "calleReferencia": "CALLE REFERENCIA 2",
+            "ubicacionGeografica": "2170002"
+          },
+          {
+            "numero": "3",
+            "nombreComercial": "ESTABLECIMIENTO 3",
+            "estado": "CERRADO",
+            "callePrincipal": "CALLE PRINCIPAL 3",
+            "calleNumeracion": "A3",
+            "calleInterseccion": "CALLE INTERSECCION 3",
+            "calleReferencia": "CALLE REFERENCIA 3",
+            "ubicacionGeografica": "2170003"
+          }
+        ]},      
 
       {
         "ruc": "1234567890002",
