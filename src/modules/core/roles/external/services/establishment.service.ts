@@ -153,7 +153,10 @@ export class EstablishmentService {
       relations: {
         ruc: { state: true },
         state: true,
-        processes: { cadastre: { cadastreState: { state: true } } },
+        processes: {
+          cadastre: { cadastreState: { state: true } },
+          type: true,
+        },
         establishmentAddress: { province: true, canton: true, parish: true },
       },
     });

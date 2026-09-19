@@ -5,4 +5,8 @@ export const helpers = {
   gte: (a: number, b: number) => a >= b,
   lt: (a: number, b: number) => a < b,
   lte: (a: number, b: number) => a <= b,
+  formatDate: (date: any) => {
+    if (!date) return '';
+    return new Date(date).toLocaleString('es-EC', { timeZone: 'America/Guayaquil' });
+  }
 };

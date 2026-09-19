@@ -16,7 +16,7 @@
         <ul>
           <li>RUC: {{data.establishment.ruc.number}}</li>
           <li>Nombre del Guía: {{data.user.name}}</li>
-          <li>Fecha de Solicitud: {{data.process.registeredAt}}</li>
+          <li>Fecha de Solicitud: {{formatDate data.process.registeredAt}}</li>
           <li>Actividad: {{data.process.activity.name}}</li>
           <li>Clasificación: {{data.classifications}}</li>
         </ul>
